@@ -1,0 +1,27 @@
+body {
+  background-color: #FFE5EC;
+}
+
+/* Color para el h1 */
+h1 {
+  color: #d2335b;
+}
+
+/* Color para los demás encabezados */
+h2, h3, h4, h5, h6 {
+  color: #FB6F92;
+}
+
+/* Estilo para el encabezado de la página */
+header {
+  background-color: #FFC2D1; /* Color de fondo rosadito al header */
+  text-align: center;        /* Centra el contenido (como el título) horizontalmente */
+  padding: 20px;             /* Espacio interno alrededor del contenido */
+  border-radius: 10px;       /* Bordes redondeados para que no se vea tan cuadrado */
+}
+
+/* Estilo específico para el título dentro del header (h1) */
+header h1 {
+  color: #FB6F92;            /* Color rosado fuerte para el texto del título */
+  font-size: 360%;           /* Tamaño grande del texto (360% del tamaño base) */
+}
