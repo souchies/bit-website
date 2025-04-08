@@ -25,3 +25,12 @@ header h1 {
   color: #FB6F92;            /* Color rosado fuerte para el texto del título */
   font-size: 360%;           /* Tamaño grande del texto (360% del tamaño base) */
 }
+.img-circular {
+  width: 500px;          /* Tamaño de la imagen */
+  height: 500px;
+  object-fit: cover;     /* Para que no se deforme */
+  border-radius: 50%;    /* Hace que sea circular */
+  border: 4px solid #FB6F92; /* Borde rosadito */
+  margin: 20px;          /* Espacio alrededor */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Sombra suave */
+}
