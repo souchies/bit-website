@@ -5,23 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="shortcut icon" href="./assets/image.png" type="image/x-icon" />
+    
     <title>Sobre mí | Contáctame</title>
   </head>
 
   <body>
     <header id="top">
-      <h2> Sofía Jerónimo </h2>
+      <h2>Sofía Jerónimo</h2>
       <p>Bienvenido a mi página personal de contacto 💬</p>
       <hr />
-      <nav>
-        <a href="index.html">Home</a> |
-        <a href="contact.html">Contact</a>
+      <nav class="nav-links">
+        <a href="index.html" class="footer-btn">Home</a>
+        <a href="contact.html" class="footer-btn">Contact</a>
       </nav>
     </header>
 
     <main>
       <section>
-        <h1>Contacto</h1>
+        <h1 class="titulo-contacto">Contacto</h1>
         <p>
           ¡Hola! Si quieres ponerte en contacto conmigo, estaré encantada de hablar contigo.  
           Ya sea que tengas dudas, quieras colaborar en algún proyecto o simplemente charlar sobre temas interesantes,  
@@ -32,10 +33,49 @@
       <section>
         <form>
           <label for="nombre">Nombre</label>
-          <input type="text" id="nombre" />
+          <input type="text" id="nombre" placeholder="Ejemplo: Juan Pérez" required />
 
-          <label for="correo">Correo</label>
+          <label for="contrasena">Contraseña</label>
+          <input type="password" id="contrasena" required />
+
+          <label for="correo">Correo electrónico</label>
           <input type="email" id="correo" />
+
+          <label for="verificacion">Verificación</label>
+          <input type="checkbox" id="verificacion" />
+
+          <label for="color">Color favorito</label>
+          <input type="color" id="color" />
+
+          <label for="fecha">Fecha</label>
+          <input type="date" id="fecha" />
+
+          <label for="mes">Mes</label>
+          <input type="month" id="mes" />
+
+          <label for="semana">Semana</label>
+          <input type="week" id="semana" />
+
+          <label for="hora">Hora</label>
+          <input type="time" id="hora" />
+
+          <label for="archivo">Archivo</label>
+          <input type="file" id="archivo" />
+
+          <label for="numero">Número</label>
+          <input type="number" id="numero" />
+
+          <label for="rango">Rango</label>
+          <input type="range" id="rango" />
+
+          <label for="busqueda">Búsqueda</label>
+          <input type="search" id="busqueda" />
+
+          <label for="telefono">Teléfono</label>
+          <input type="tel" id="telefono" />
+
+          <label for="url">URL</label>
+          <input type="url" id="url" />
 
           <label for="mensaje">Mensaje</label>
           <textarea id="mensaje" placeholder="Escribe tu mensaje aquí"></textarea>

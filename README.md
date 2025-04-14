@@ -1,9 +1,16 @@
-# Proyect of Sofia
-## Eilen's website 
+# Sitio Web Personal - Sofía Jerónimo
 
-In this *proyect* You will know me a little
+Este es un proyecto de sitio web personal desarrollado en HTML y CSS. Fue creado como parte del curso y contiene información sobre mí, mis intereses y habilidades.
 
-My name is *Eileen Sofia Jeronimo Camargo* into the website, about me 18 years old 
+## Estructura
+- `index.html`: Página de inicio
+- `about.html`: Información personal
+- `style.css`: Estilos generales
+- `README.md`: Descripción del proyecto
+
+## Autor
+*Eileen Sofía Jerónimo Camargo - 2025*
+
 
 ### Academy 
 [Link to BIT](https://bitinstitute.co/)
