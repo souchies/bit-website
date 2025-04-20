@@ -310,3 +310,60 @@ footer {
     height: 280px;
   }
 }
+
+@media (max-width: 576px) {
+  header {
+    padding: 1rem;
+  }
+
+  h1, h2, h3 {
+    font-size: 2.2rem;
+  }
+
+  nav ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .nav-button {
+    width: 80%;
+    max-width: 200px;
+    padding: 10px;
+  }
+
+  .img-circular {
+    width: 180px;
+    height: 180px;
+  }
+
+  .history,
+  section {
+    padding: 1rem;
+    margin: 1rem;
+  }
+
+  section {
+    font-size: 1rem;
+    border-width: 1px;
+  }
+
+  main {
+    padding: 1rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+}
+.tabla-responsive {
+  overflow-x: auto;
+  width: 100%;
+}
+
+.tabla-responsive table {
+  width: 100%;
+  min-width: 600px; /* o el ancho mínimo necesario */
+  border-collapse: collapse;
+}
